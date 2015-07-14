@@ -919,3 +919,8 @@ System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet:
 2015-07-14 19:41:01,031 [8] INFO  umbraco.content - [T36/D13] Load Xml from file...
 2015-07-14 19:41:01,033 [8] INFO  umbraco.content - [T36/D13] Loaded Xml from file.
 2015-07-14 19:41:01,045 [8] INFO  umbraco.BusinessLogic.Log - [T44/D13] Log scrubbed.  Removed all items older than 2015-05-15 19:41:01
+2015-07-14 19:54:09,150 [8] INFO  Umbraco.Core.PluginManager - [T61/D13] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-07-14 19:54:09,150 [8] INFO  Umbraco.Core.PluginManager - [T61/D13] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-07-14 21:15:13,439 [8] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [T31/D13] Login attempt failed for username test from IP address ::1, the user does not exist
+2015-07-14 21:15:22,130 [8] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [T14/D13] Login attempt succeeded for username debug@outlook.jp from IP address ::1
+2015-07-14 21:15:22,142 [8] INFO  Umbraco.Web.Security.WebSecurity - [T14/D13] User Id: 0 logged in
