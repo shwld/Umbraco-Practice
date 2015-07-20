@@ -1,0 +1,22 @@
+﻿{
+    "gridEditors": [
+        {
+            "name": "my grid editor",
+            "alias": "mygrid",
+            "view": "/app_plugins/mygrid/editor.html",
+            "render": "/app_plugins/mygrid/editor.cshtml", 
+            "icon": "icon-thumb-up",
+            "config": {
+                "color": "red",
+                "text-align": "right"
+            }
+        }
+    
+    ],
+    "javascript":[
+        "/app_plugins/mygrid/editor.controller.js"
+    ],
+	"css": [
+        "/app_plugins/mygrid/editor.css"
+	]
+}

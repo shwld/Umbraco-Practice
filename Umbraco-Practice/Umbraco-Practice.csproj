@@ -260,6 +260,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Plugins\Grid\Config\FanoeConfig.txt" />
+    <Content Include="App_Plugins\Grid\Editors\Views\media_with_description.html" />
+    <Content Include="App_Plugins\Grid\Editors\Views\quote_with_description.html" />
+    <Content Include="App_Plugins\mygrid\editor.controller.js" />
+    <Content Include="App_Plugins\mygrid\editor.css" />
+    <Content Include="App_Plugins\mygrid\editor.html" />
     <Content Include="Config\grid.editors.config.js" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
@@ -291,6 +297,13 @@
     <Content Include="Config\BaseRestExtensions.config" />
     <Content Include="Config\applications.config" />
     <Content Include="Config\404handlers.config" />
+    <Content Include="App_Plugins\Grid\Editors\Render\embed_videowrapper.cshtml" />
+    <Content Include="App_Plugins\Grid\Editors\Render\media_round.cshtml" />
+    <Content Include="App_Plugins\Grid\Editors\Render\media_text_right.cshtml" />
+    <Content Include="App_Plugins\Grid\Editors\Render\media_wide.cshtml" />
+    <Content Include="App_Plugins\Grid\Editors\Render\quote_with_description.cshtml" />
+    <Content Include="App_Plugins\mygrid\package.manifest" />
+    <Content Include="App_Plugins\mygrid\editor.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -306,6 +319,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
